@@ -6,7 +6,7 @@ def rev(sentence):
     revwords = words[::-1]
 
     
-    revsent= ' '.join(reversed_words)
+    revsent= ' '.join(revwords)
 
     return revsent
 
