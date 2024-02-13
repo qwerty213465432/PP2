@@ -15,8 +15,8 @@ def filtprime(numbers):
     return primenums
 
 
-numbers = input("Enter numbers separated by spaces: ")
+numbers = input()
 list1 = list(map(int, numbers.split()))
 
 primenums = filtprime(list1)
-print("Prime numbers:", primenums)
+print( primenums)
