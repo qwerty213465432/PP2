@@ -4,6 +4,6 @@ def copy_file(source_file, destination_file):
             destination.write(source.read())
 
 
-source_file = input("Enter the path of the source file: ")
-destination_file = input("Enter the path of the destination file: ")
+source_file = " "
+destination_file = " "
 copy_file(source_file, destination_file)

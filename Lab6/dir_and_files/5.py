@@ -4,6 +4,6 @@ def listtofile(filename, input_list):
             file.write(str(item) + '\n')
 
 
-filename = input("Enter the filename to write the list: ")
-my_list = input("Enter the list (separate elements with spaces): ").split()
+filename = " "
+my_list = " ".split()
 listtofile(filename, my_list)

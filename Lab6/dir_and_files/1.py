@@ -16,5 +16,5 @@ def dirfile(Ppath):
     for item in os.listdir(Ppath):
         print(item)
 
-path = input()
+path = " "
 dirfile(path)

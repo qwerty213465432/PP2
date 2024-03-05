@@ -11,5 +11,5 @@ def pathis(path):
         print(f"The path '{path}' does not exist.")
 
 
-path = input("Enter the path to analyze: ")
+path = " "
 pathis(path)

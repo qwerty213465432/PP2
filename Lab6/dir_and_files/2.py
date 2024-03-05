@@ -23,5 +23,5 @@ def pathis(path):
         print("Executable: No")
 
 
-path = input()
+path = " "
 pathis(path)

@@ -11,5 +11,5 @@ def delete_file(path):
         print(f"The file '{path}' does not exist.")
 
 
-path = input("Enter the path of the file to delete: ")
+path = " "
 delete_file(path)

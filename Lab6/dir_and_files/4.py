@@ -1,15 +1,12 @@
-def count_lines(filename):
-    try:
-        with open(filename, 'r') as file:
-            line_count = 0
-            for line in file:
-                line_count += 1
-        print(f"Number of lines in '{filename}': {line_count}")
-    except FileNotFoundError:
-        print(f"Error: File '{filename}' not found.")
-    except PermissionError:
-        print(f"Error: Permission denied for file '{filename}'.")
+import os
+
+file_name = " "
 
 
-filename = input("Enter the path to the text file: ")
-count_lines(filename)
+if not os.path.exists(file_name):
+    print(f"Error: File '{file_name}' not found.")
+else:
+
+    with open(file_name, 'r') as file:
+        line_count = sum(1 for line in file)
+    print(f"The file '{file_name}' contains {line_count} lines.")
